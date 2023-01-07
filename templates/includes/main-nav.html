@@ -19,9 +19,9 @@
                 Vapes
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="vapes-link">
-                <a href="" class="dropdown-item">MODS</a>
-                <a href="" class="dropdown-item">PODS</a>
-                <a href="" class="dropdown-item">All Vapes</a>
+                <a href="{% url 'products' %}?category=mods" class="dropdown-item">MODS</a>
+                <a href="{% url 'products' %}?category=pods" class="dropdown-item">PODS</a>
+                <a href="{% url 'products' %}?category=mods,pods" class="dropdown-item">All Vapes</a>
             </div>
         </li>
 
@@ -31,9 +31,9 @@
                 E-Juice
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="ejuice-link">
-                <a href="" class="dropdown-item">Nicotine</a>
-                <a href="" class="dropdown-item">Without Nicotine</a>
-                <a href="" class="dropdown-item">All E-Juices</a>
+                <a href="{% url 'products' %}?category=nicotine" class="dropdown-item">Nicotine</a>
+                <a href="{% url 'products' %}?category=without_nicotine" class="dropdown-item">Without Nicotine</a>
+                <a href="{% url 'products' %}?category=nicotine,without_nicotine" class="dropdown-item">All E-Juices</a>
             </div>
         </li>
 
@@ -43,10 +43,12 @@
                 Special Offers
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="specials-link">
-                <a href="" class="dropdown-item">New Arrivals</a>
-                <a href="" class="dropdown-item">Deals</a>
-                <a href="" class="dropdown-item">Clearance</a>
-                <a href="" class="dropdown-item">All Specials</a>
+                <a href="{% url 'products' %}?category=new_arrivals" class="dropdown-item">New Arrivals</a>
+                <a href="{% url 'products' %}?category=deals" class="dropdown-item">Deals</a>
+                <a href="{% url 'products' %}?category=clearance" class="dropdown-item">Clearance</a>
+                <a href="{% url 'products' %}?category=new_arrivals,deals,clearance" class="dropdown-item">
+                    All Specials
+                </a>
             </div>
         </li>
     </ul>
