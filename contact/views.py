@@ -14,6 +14,7 @@ def contact(request):
             message = form.cleaned_data['message']
             # send email
             send_mail(
+                name,
                 subject,
                 message,
                 email,
