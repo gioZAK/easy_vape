@@ -24,6 +24,17 @@ class UserProfile(models.Model):
         return self.user.username
 
 
+class Wishlist(models.Model):
+    """
+    Allows the user to have a wishlsit
+    """
+    user = models.ForeignKey(settings.AUTH_USER_MODEL, on_delete=models.CASCADE)
+    product = models.ForeignKey(Product, on_delete=models.CASCADE)
+
+    class Meta:
+        unique_together = ('user', 'product')
+
+
 @receiver(post_save, sender=User)
 def create_or_update_user_profile(sender, instance, created, **kwargs):
     """
