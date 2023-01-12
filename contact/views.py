@@ -1,3 +1,4 @@
+import os
 from django.core.mail import send_mail
 from django.shortcuts import render, redirect
 from django.urls import reverse
@@ -17,7 +18,7 @@ def contact(request):
                 subject,
                 message,
                 email,
-                ['giovane.zakc@gmail.com'],
+                [os.environ.get('EMAIL_HOST_USER')],
                 fail_silently=False,
             )
             form.save()
