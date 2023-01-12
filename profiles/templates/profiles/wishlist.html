@@ -1,0 +1,54 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block extra_css %}
+<link rel="stylesheet" href="{% static 'profiles/css/profile.css' %}">
+{% endblock %}
+
+{% block page_header %}
+<div class="container header-container">
+    <div class="row">
+        <div class="col"></div>
+    </div>
+</div>
+{% endblock %}
+
+{% block content %}
+<div class="overlay"></div>
+
+<div class="container">
+    <div class="row">
+        <div class="col">
+            <hr>
+            <h2 class="logo-font mb-4 text-center">My WishList</h2>
+            <hr>
+        </div>
+    </div>
+    <div class="row">
+        {% for item in wishlist_items %}
+        <div class="col-md-4">
+            <div class="card">
+                {% if product.image %}
+                <a href="{% url 'product_detail' item.product.id %}">
+                    <img class="card-img-top img-fluid" src="{{ product.image.url }}" alt="{{ product.name }}">
+                </a>
+                {% else %}
+                <a href="{% url 'product_detail' item.product.id %}">
+                    <img class="card-img-top img-fluid" src="{{ item.product.image.url }}" alt="{{ product.name }}">
+                </a>
+                {% endif %}
+                <div class="card-body">
+                    <h5 class="card-title">{{ item.product.name }}</h5>
+                    <p class="card-text">{{ item.product.description }}</p>
+                    <p class="card-text">€ {{ item.product.price }}</p>
+                    <a href="{% url 'remove_from_wishlist' item.product.id %}" class="btn btn-danger text-center">Remove
+                        from
+                        Wishlist</a>
+                </div>
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+</div>
+
+{% endblock %}
