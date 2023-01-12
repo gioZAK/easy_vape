@@ -13,4 +13,12 @@
 
 {% block content %}
 <div class="overlay"></div>
+<div class="container">
+    <h1 class="text-center">Contact Us</h1>
+    <form method="post">
+        {% csrf_token %}
+        {{ form|crispy }}
+        <input type="submit" class="btn btn-primary" value="Send">
+    </form>
+</div>
 {% endblock %}
