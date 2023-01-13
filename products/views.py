@@ -4,8 +4,8 @@ from django.db.models import Q
 from django.db.models.functions import Lower
 from django.contrib.auth.decorators import login_required
 
-from .models import Product, Category
-from .forms import ProductForm
+from .models import Product, Category, Review
+from .forms import ProductForm, ReviewForm
 from profiles.views import Wishlist
 
 
@@ -63,14 +63,17 @@ def product_detail(request, product_id):
     """ A view to show individual product details """
 
     product = get_object_or_404(Product, pk=product_id)
-    context = {}
+    reviews = Review.objects.filter(product=product)
+    review_form = ReviewForm()
+    context = {
+        'product': product,
+        'reviews': reviews,
+        'review_form': review_form
+    }
     if request.user.is_authenticated:
         is_product_in_wishlist = Wishlist.objects.filter(user=request.user, product=product).exists()
         context['is_product_in_wishlist'] = is_product_in_wishlist
-    
-    context['product'] = product
     return render(request, 'products/product_detail.html', context)
-
 
 
 @login_required
@@ -127,3 +130,31 @@ def delete_product(request, product_id):
     product.delete()
     messages.success(request, 'Product deleted!')
     return redirect(reverse('products'))
+
+
+@login_required
+def add_review(request, product_id):
+    product = get_object_or_404(Product, pk=product_id)
+    if request.method == 'POST':
+        form = ReviewForm(request.POST)
+        if form.is_valid():
+            review = form.save(commit=False)
+            review.product = product
+            review.user = request.user
+            review.save()
+            return redirect('product_detail', product_id=product_id)
+    else:
+        form = ReviewForm()
+    template = 'reviews/add_review.html'
+    context = {
+        'form': form,
+        'product': product,
+    }
+    return render(request, template, context)
+
+
+@login_required
+def delete_review(request, product_id, review_id):
+    review = Review.objects.get(id=review_id)
+    review.delete()
+    return redirect(reverse('product_detail', args=[product_id]))
