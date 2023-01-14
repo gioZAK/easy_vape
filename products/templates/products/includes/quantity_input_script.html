@@ -52,4 +52,11 @@
         $(allQuantityInputs).val(currentValue - 1);
         handleEnableDisable(itemId);
     });
+
+    //Limit the review character to 400
+    $("#review-text").on("input", function () {
+        if ($(this).val().length > 400) {
+            $(this).val($(this).val().slice(0, 400));
+        }
+    });
 </script>

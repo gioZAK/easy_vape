@@ -3,6 +3,7 @@ from django.contrib import messages
 from django.db.models import Q
 from django.db.models.functions import Lower
 from django.contrib.auth.decorators import login_required
+from django.core.paginator import Paginator
 
 from .models import Product, Category, Review
 from .forms import ProductForm, ReviewForm
@@ -63,12 +64,16 @@ def product_detail(request, product_id):
     """ A view to show individual product details """
 
     product = get_object_or_404(Product, pk=product_id)
-    reviews = Review.objects.filter(product=product)
+    reviews = Review.objects.filter(product=product, is_approved=True).order_by('-created_at')
+    paginator = Paginator(reviews, 2)
+    page_number = request.GET.get('page')
+    page_obj = paginator.get_page(page_number)
     review_form = ReviewForm()
     context = {
         'product': product,
-        'reviews': reviews,
-        'review_form': review_form
+        'reviews': page_obj,
+        'review_form': review_form,
+        'page_obj': page_obj
     }
     if request.user.is_authenticated:
         is_product_in_wishlist = Wishlist.objects.filter(user=request.user, product=product).exists()
