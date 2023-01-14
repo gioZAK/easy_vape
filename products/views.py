@@ -157,4 +157,5 @@ def add_review(request, product_id):
 def delete_review(request, product_id, review_id):
     review = Review.objects.get(id=review_id)
     review.delete()
-    return redirect(reverse('product_detail', args=[product_id]))
+    messages.success(request, "Your review was deleted with success.")
+    return redirect('product_detail', product_id=product_id)
