@@ -2,38 +2,57 @@
 
 EasyVape is a E-Commerce webpage, produced as my final project in [CodeInstitute](https://codeinstitute.net/global/). This is a fullstack website, which "sells" Vapes and E-Juices made by EasyVape, which is a fictional company.
 
-The main technologies used were HTML, CSS, JS, Jquery, Python, Django. All images were created using [Dall-E-2](https://openai.com/dall-e-2/)
+The main technologies used were HTML, CSS, JS, Jquery, Python and Django. All images were created using [Dall-E-2](https://openai.com/dall-e-2/)
 
 <img src="https://github.com/gioZAK/easy_vape/blob/1a012a31e3a82345e0cf7346b98fc98ff0967919/docs/ss/responsive-img-easy-vape.png">
  
-[Click here](https://easyvape.herokuapp.com/) to visit the deployed site.
+[Click here](https://easyvape.herokuapp.com/) to visit the deployed website.
 
 
 ---
 
 # Table of contents
 
-1. [Design](#design)
-2. [UX](#ux)
-3. [Agile Workflow](#agile-workflow)
-4. [Structure](#structure)
-5. [Features](#features)
+1. [Website presentation](#website-presentation)
+2. [Structure](#structure)
+3. [UX](#ux)
+4. [Agile Workflow](#agile-workflow)
+5. [Business Plan](#business-plan)
 6. [Technologies Used](#technologies-used)    
 8. [Testing](#testing)
 8. [Deployment](#deployment)
 9. [Credits](#credits)
 
-## Design
+## Website presentation
+
+In this section, I want to show you how to navigate this website, how to check for products, add products, check out, how to add a review, add to products to the wishlist and fill the contact form.
+
+### Home
+
+### Navigation Bar
+
+### Products
+
+### Products Detail
+
+### Adding Products to the Bag
+
+### Product Checkout to the Bag
+
+### Contact Form
+
+### Wishlist
+
+### Reviews
 
 
-### Colors
+### Footer
 
-
-### Typography
-
-- 
+## Structure
 
 ### Wireframe
+
+Wireframe created using [Balsamiq](https://balsamiq.com/)
 
 <details>
 <summary>
@@ -49,9 +68,32 @@ Wireframe Home
 
 <details>
 <summary>
-Wireframe Blog Post
+Wireframe Products
 </summary>
 <img src="">
+</details>
+
+<details>
+<summary>
+Wireframe Product Detail
+</summary>
+<img src="">
+</details>
+
+<details>
+<summary>
+Wireframe Bag
+</summary>
+<img src="">
+</details>
+</details>
+
+<details>
+<summary>
+Wireframe Checkout
+</summary>
+<img src="">
+</details>
 </details>
 
 <details>
@@ -60,10 +102,11 @@ Wireframe Profile
 </summary>
 <img src="">
 </details>
+</details>
 
 <details>
 <summary>
-Wireframe 
+Wireframe Contact
 </summary>
 <img src="">
 </details>
@@ -98,35 +141,8 @@ You can access the list of issues/user stories used during the development of th
 
 
 [Back to Table of contents](#table-of-contents)
-## Features
 
-### Home page
-- 
-
-<img src="">
-
-### 
-- 
-<img src="">
-<img src="">
-<img src="">
-
-
-### Profile
-- Content:
-    - 
-
-<img src="">
-
-### NavBar
-
-- Content:
-    
-
-    <img src="">
-
-### Future Features
-
+## Business Plan
 
 ## Technologies Used
 
