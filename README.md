@@ -1,8 +1,10 @@
 # [Easy Vape](https://easyvape.herokuapp.com/)
 
-A E-commerce store that sells vape.
+EasyVape is a E-Commerce webpage, produced as my final project in [CodeInstitute](https://codeinstitute.net/global/). This is a fullstack website, which "sells" Vapes and E-Juices made by EasyVape, which is a fictional company.
 
-<img src="">
+The main technologies used were HTML, CSS, JS, Jquery, Python, Django. All images were created using [Dall-E-2](https://openai.com/dall-e-2/)
+
+<img src="https://github.com/gioZAK/easy_vape/blob/1a012a31e3a82345e0cf7346b98fc98ff0967919/docs/ss/responsive-img-easy-vape.png">
  
 [Click here](https://easyvape.herokuapp.com/) to visit the deployed site.
 
