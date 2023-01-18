@@ -62,12 +62,14 @@ def wishlist(request):
     context = {'wishlist_items': wishlist_items}
     return render(request, 'profiles/wishlist.html', context)
 
+
 @login_required
 def add_to_wishlist(request, product_id):
     product = get_object_or_404(Product, pk=product_id)
     wishlist_item = Wishlist(user=request.user, product=product)
     wishlist_item.save()
-    return redirect(reverse('wishlist'))
+    messages.success(request, "Product Added to your Wishlist")
+    return redirect('product_detail', product_id=product_id)
 
 
 @login_required
@@ -75,5 +77,5 @@ def remove_from_wishlist(request, product_id):
     product = get_object_or_404(Product, pk=product_id)
     wishlist_item = get_object_or_404(Wishlist, user=request.user, product=product)
     wishlist_item.delete()
+    messages.success(request, "Product Deleted from your Wishlist")
     return redirect(reverse('wishlist'))
-
