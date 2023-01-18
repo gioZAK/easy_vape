@@ -37,7 +37,7 @@ In this section, I want to show you how to navigate this website, how to check f
 
 ### Adding Products to the Bag
 
-### Product Checkout to the Bag
+### Checkout
 
 ### Contact Form
 
