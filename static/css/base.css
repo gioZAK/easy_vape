@@ -269,12 +269,6 @@ input[name='q']::placeholder {
     border-radius: 0;
 }
 
-footer {
-    background: silver;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-}
 
 /* MailChimp CSS */
 #mc_embed_signup {
