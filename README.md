@@ -204,37 +204,33 @@ Footer Image
 
 Wireframe created using [Balsamiq](https://balsamiq.com/)
 
-<details>
-<summary>
-Wireframe
-</summary>
 
 <details>
 <summary>
 Wireframe Home
 </summary>
-<img src="">
+<img src="https://github.com/gioZAK/easy_vape/blob/main/docs/wireframe/home-wireframe.png">
 </details>
 
 <details>
 <summary>
-Wireframe Products
+Wireframe Products List
 </summary>
-<img src="">
+<img src="https://github.com/gioZAK/easy_vape/blob/main/docs/wireframe/product-list-wireframe.png">
 </details>
 
 <details>
 <summary>
 Wireframe Product Detail
 </summary>
-<img src="">
+<img src="https://github.com/gioZAK/easy_vape/blob/main/docs/wireframe/product-detail-wireframe.png">
 </details>
 
 <details>
 <summary>
 Wireframe Bag
 </summary>
-<img src="">
+<img src="https://github.com/gioZAK/easy_vape/blob/main/docs/wireframe/bag-wireframe.png">
 </details>
 </details>
 
@@ -242,7 +238,7 @@ Wireframe Bag
 <summary>
 Wireframe Checkout
 </summary>
-<img src="">
+<img src="https://github.com/gioZAK/easy_vape/blob/main/docs/wireframe/checkout-wireframe.png">
 </details>
 </details>
 
@@ -250,17 +246,10 @@ Wireframe Checkout
 <summary>
 Wireframe Profile
 </summary>
-<img src="">
+<img src="https://github.com/gioZAK/easy_vape/blob/main/docs/wireframe/profile-wireframe.png">
 </details>
 </details>
 
-<details>
-<summary>
-Wireframe Contact
-</summary>
-<img src="">
-</details>
-</details>
 
 ### Data Scheme
 
