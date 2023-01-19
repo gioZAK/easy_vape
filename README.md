@@ -253,6 +253,16 @@ Wireframe Profile
 
 ### Data Scheme
 
+## ERD
+
+<details>
+<summary>
+ERD image
+</summary>
+<img src="https://github.com/gioZAK/easy_vape/blob/main/docs/ERD/models.png">
+</details>
+</details>
+
 
 ## UX
 
