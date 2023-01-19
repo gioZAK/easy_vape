@@ -73,7 +73,7 @@ Here in the Product Detail page, the user is able to select the product quantity
 
 <details>
 <summary>
-Products List Image
+Product Image
 </summary>
 <img src="https://github.com/gioZAK/easy_vape/blob/991f111d0027fc5f231878ee8414ec5b9dce2c03/docs/ss/product-detail.png">
 </details>
@@ -84,7 +84,7 @@ Inside the Product Detail page, the user can add products to the bag, by clickin
 
 <details>
 <summary>
-Products List Image
+Product Image
 </summary>
 <img src="https://github.com/gioZAK/easy_vape/blob/991f111d0027fc5f231878ee8414ec5b9dce2c03/docs/ss/product-detail.png">
 </details>
@@ -114,6 +114,23 @@ Checkout Images
 <img src="https://github.com/gioZAK/easy_vape/blob/main/docs/ss/checkout-success.png">
 </details>
 
+Also, the user will receive an email with the purchase information.
+
+<details>
+<summary>
+Checkout Email Image
+</summary>
+<img src="https://github.com/gioZAK/easy_vape/blob/main/docs/ss/order-confirmation-email.png">
+</details>
+
+<details>
+<summary>
+Checkout Email Images
+</summary>
+<img src="https://github.com/gioZAK/easy_vape/blob/main/docs/ss/checkout.png">
+<img src="https://github.com/gioZAK/easy_vape/blob/main/docs/ss/checkout-success.png">
+</details>
+
 ### Contact Form
 
 If needed, the user can also write a Contact form. 
@@ -135,10 +152,15 @@ Inside the Wishlist page you can see your favorite products there and remove the
 <summary>
 Wishlist Images
 </summary>
+Click on "Add to Wishlist" button
 <img src="https://github.com/gioZAK/easy_vape/blob/991f111d0027fc5f231878ee8414ec5b9dce2c03/docs/ss/product-detail.png">
+In order to access your wishlist click on the "Manage Wishlist"
 <img src="https://github.com/gioZAK/easy_vape/blob/main/docs/ss/wishlist-access-product-detail.png">
-<img src="https://github.com/gioZAK/easy_vape/blob/main/docs/ss/wishlist.png">
+Or you can click here.
 <img src="https://github.com/gioZAK/easy_vape/blob/main/docs/ss/wishlist-access.png">
+This is your wishlist page
+<img src="https://github.com/gioZAK/easy_vape/blob/main/docs/ss/wishlist.png">
+In order to remove click on the "Remove from Wishlist" Button.
 <img src="https://github.com/gioZAK/easy_vape/blob/main/docs/ss/wishlist-remove-item-1.png">
 <img src="https://github.com/gioZAK/easy_vape/blob/main/docs/ss/wishlist-remove-item-2.png">
 </details>
