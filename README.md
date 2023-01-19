@@ -299,8 +299,10 @@ You can access the list of issues/user stories used during the development of th
 
 ### Main Tech
 
- - [Django](https://www.djangoproject.com/) 
+ - HTML5
+ - CSS
  - [JavaScript](https://www.javascript.com/)
+ - [Django](https://www.djangoproject.com/) 
  - [Bootstrap](https://getbootstrap.com/)
 
 [Back to Table of contents](#table-of-contents)
@@ -321,7 +323,7 @@ You can access the list of issues/user stories used during the development of th
 - Balsamiq Wireframes
     - Used to create the project's wireframe.
 - Amazon Web Services
-    - Used to host all images.
+    - Used to host all images and static files.
 - Django AllAuth
     - Used to deal with user account registration.
 - Chrome DevTool
@@ -333,22 +335,10 @@ You can access the list of issues/user stories used during the development of th
 
 
 ## Testing
-- I have used automated test and manual testing to check if all the website's functionalities were working as intended.
-   -
+- I have used a combination of automated test and manual testing.
 
-### Python Testing
-- I have tested all python files and they all passed
-- Tested with [CI pep8](https://pep8ci.herokuapp.com/)
-<img src="">
-
-### JavaScript Testing
-- I have tested the script.js and it passed with no major error.
-- The undefined variable is not a glitch.
-- Tested with [JSHint](https://jshint.com/)
-<img src="">
 
 ### CSS Testing
-- I have tested the script.css file and it passed.
 - Tested with [Jigsaw](https://jigsaw.w3.org/css-validator/)
 <img src="">
 
@@ -357,8 +347,6 @@ You can access the list of issues/user stories used during the development of th
 - Tested with [Validator.w3](https://validator.w3.org/nu/#textarea)
 <img src=">
 
-### LightHouse
-- I have tested the all webpages with LightHouse
 
 [Back to Table of contents](#table-of-contents)
 ### Manual Testing
