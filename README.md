@@ -29,21 +29,131 @@ In this section, I want to show you how to navigate this website, how to check f
 
 ### Home
 
+This is the Home Page, it includes the navigation bar, a jumbotron image with an invitation to shop and the footer.
+
+<details>
+<summary>
+Home Page Image
+</summary>
+<img src="https://github.com/gioZAK/easy_vape/blob/991f111d0027fc5f231878ee8414ec5b9dce2c03/docs/ss/home-page.png">
+</details>
+
 ### Navigation Bar
+
+In the Navigation Bar the user is able to user the search bar, check for products, access the contact form, check his bag and by clicking on the account, he can access his profile and wishlist.
+
+<details>
+<summary>
+Nav-Bar Image
+</summary>
+<img src="https://github.com/gioZAK/easy_vape/blob/991f111d0027fc5f231878ee8414ec5b9dce2c03/docs/ss/nav-bar-search.png">
+</details>
+
+<details>
+<summary>
+Account Image
+</summary>
+<img src="https://github.com/gioZAK/easy_vape/blob/main/docs/ss/wishlist-access.png">
+</details>
 
 ### Products
 
+Here is the product list page, the user is able to see a list of products and choose which one he is interested.
+
+<details>
+<summary>
+Products List image
+</summary>
+<img src="https://github.com/gioZAK/easy_vape/blob/main/docs/ss/all_products.png">
+</details>
+
 ### Products Detail
+
+Here in the Product Detail page, the user is able to select the product quantity, add it to the bag, add to the wishlist and write a review.
+
+<details>
+<summary>
+Products List Image
+</summary>
+<img src="https://github.com/gioZAK/easy_vape/blob/991f111d0027fc5f231878ee8414ec5b9dce2c03/docs/ss/product-detail.png">
+</details>
 
 ### Adding Products to the Bag
 
+Inside the Product Detail page, the user can add products to the bag, by clicking on the add to the bag
+
+<details>
+<summary>
+Products List Image
+</summary>
+<img src="https://github.com/gioZAK/easy_vape/blob/991f111d0027fc5f231878ee8414ec5b9dce2c03/docs/ss/product-detail.png">
+</details>
+
+After this, go to the bag icon on the top left, here in the bag page, you can increase the quantity or remove the products.
+If the user is satisfied he can click on Secure Checkout to be redirected to the checkout page.
+
+<details>
+<summary>
+Bag Page Images
+</summary>
+<img src="https://github.com/gioZAK/easy_vape/blob/main/docs/ss/bag-1.png">
+<img src="https://github.com/gioZAK/easy_vape/blob/main/docs/ss/bag-2.png">
+</details>
+
 ### Checkout
+
+Here in the Checkout Page, the user is able to see his order items and total.
+To complete the checkout you need to fill in the necessary forms.
+If you want to test your purchase you can type "4242 4242 4242 4242" in the card field, Stripe will know this is a test
+
+<details>
+<summary>
+Checkout Images
+</summary>
+<img src="https://github.com/gioZAK/easy_vape/blob/main/docs/ss/checkout.png">
+<img src="https://github.com/gioZAK/easy_vape/blob/main/docs/ss/checkout-success.png">
+</details>
 
 ### Contact Form
 
+If needed, the user can also write a Contact form. 
+The site owner will be able to read in the admin page and he will also receive a email with your name and subject.
+
+<details>
+<summary>
+Contact Form Image
+</summary>
+<img src="https://github.com/gioZAK/easy_vape/blob/main/docs/ss/contact-form.png">
+</details>
+
 ### Wishlist
 
+In the product detail page the user can add a product to the wishlist. In order to access the wishlist, you can click on manage wishlist or in the account menu in the top left of the nav bar.
+Inside the Wishlist page you can see your favorite products there and remove them if necessary. 
+
+<details>
+<summary>
+Wishlist Images
+</summary>
+<img src="https://github.com/gioZAK/easy_vape/blob/991f111d0027fc5f231878ee8414ec5b9dce2c03/docs/ss/product-detail.png">
+<img src="https://github.com/gioZAK/easy_vape/blob/main/docs/ss/wishlist-access-product-detail.png">
+<img src="https://github.com/gioZAK/easy_vape/blob/main/docs/ss/wishlist.png">
+<img src="https://github.com/gioZAK/easy_vape/blob/main/docs/ss/wishlist-access.png">
+<img src="https://github.com/gioZAK/easy_vape/blob/main/docs/ss/wishlist-remove-item-1.png">
+<img src="https://github.com/gioZAK/easy_vape/blob/main/docs/ss/wishlist-remove-item-2.png">
+</details>
+
 ### Reviews
+
+Inside the product detail page, the user can also add a review, which will be posted after the admin analyzes the review.
+
+<details>
+<summary>
+Wishlist Images
+</summary>
+<img src="https://github.com/gioZAK/easy_vape/blob/main/docs/ss/add-review.png">
+<img src="https://github.com/gioZAK/easy_vape/blob/main/docs/ss/review-submited.png">
+</details>
 
 
 ### Footer
