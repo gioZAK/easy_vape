@@ -5,9 +5,10 @@ html {
 body {
     background: url('/media/homepage_background.jpg') no-repeat center center fixed;
     background-size: cover;
-    height: calc(100vh - 164px);
+    height: 100vh;
     color: #555;
     font-family: 'Lato';
+    position: relative;
 }
 
 /* from Bulma */
@@ -268,7 +269,6 @@ input[name='q']::placeholder {
     border-color: #dc3545;
     border-radius: 0;
 }
-
 
 /* MailChimp CSS */
 #mc_embed_signup {
