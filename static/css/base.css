@@ -5,10 +5,9 @@ html {
 body {
     background: url('/media/homepage_background.jpg') no-repeat center center fixed;
     background-size: cover;
-    height: 100vh;
+    height: calc(100vh - 164px);
     color: #555;
     font-family: 'Lato';
-    position: relative;
 }
 
 /* from Bulma */
