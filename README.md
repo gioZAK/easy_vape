@@ -268,7 +268,6 @@ ERD image
 
 ## UX
 
-
 ### Site User Goal
 
 - 
@@ -286,10 +285,10 @@ This project was created using Agile techniques during development, such as:
 - ToDo, In Progress and Done: using the GitHub Kanban board.
 
 You can access the Kanban board that was used during the project development [here](https://github.com/users/gioZAK/projects/11).
-<img src="">
+<img src="https://github.com/gioZAK/easy_vape/blob/main/docs/ss/kanban-ss.png">
 
 You can access the list of issues/user stories used during the development of this project [here](https://github.com/gioZAK/easy_vape/issues?q=is%3Aissue+is%3Aclosed)
-<img src="">
+<img src="https://github.com/gioZAK/easy_vape/blob/main/docs/ss/userstr-ss.png">
 
 
 [Back to Table of contents](#table-of-contents)
