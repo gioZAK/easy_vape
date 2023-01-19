@@ -152,16 +152,17 @@ Inside the Wishlist page you can see your favorite products there and remove the
 <summary>
 Wishlist Images
 </summary>
-Click on "Add to Wishlist" button
+Click on "Add to Wishlist" button <br />
 <img src="https://github.com/gioZAK/easy_vape/blob/991f111d0027fc5f231878ee8414ec5b9dce2c03/docs/ss/product-detail.png">
-In order to access your wishlist click on the "Manage Wishlist"
+In order to access your wishlist click on the "Manage Wishlist" <br />
 <img src="https://github.com/gioZAK/easy_vape/blob/main/docs/ss/wishlist-access-product-detail.png">
-Or you can click here.
+Or you can click here. <br />
 <img src="https://github.com/gioZAK/easy_vape/blob/main/docs/ss/wishlist-access.png">
-This is your wishlist page
+This is your wishlist page <br />
 <img src="https://github.com/gioZAK/easy_vape/blob/main/docs/ss/wishlist.png">
-In order to remove click on the "Remove from Wishlist" Button.
+In order to remove click on the "Remove from Wishlist" Button. <br />
 <img src="https://github.com/gioZAK/easy_vape/blob/main/docs/ss/wishlist-remove-item-1.png">
+<br />
 <img src="https://github.com/gioZAK/easy_vape/blob/main/docs/ss/wishlist-remove-item-2.png">
 </details>
 
