@@ -253,7 +253,9 @@ Wireframe Profile
 
 ### Data Scheme
 
-## ERD
+#### ERD
+
+Here is the entity relationship diagram (ERD), showing the relationships between the various models used int his project.
 
 <details>
 <summary>
@@ -283,9 +285,10 @@ This project was created using Agile techniques during development, such as:
 - MoSCoW method: by adding a priority to each issue and display it using tags.
 - ToDo, In Progress and Done: using the GitHub Kanban board.
 
-You can access the Kanban board that was used during the project development [here]().
+You can access the Kanban board that was used during the project development [here](https://github.com/users/gioZAK/projects/11).
+<img src="">
 
-You can access the list of issues/user stories used during the development of this project [here]()
+You can access the list of issues/user stories used during the development of this project [here](https://github.com/gioZAK/easy_vape/issues?q=is%3Aissue+is%3Aclosed)
 <img src="">
 
 
