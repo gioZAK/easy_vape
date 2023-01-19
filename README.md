@@ -337,15 +337,13 @@ You can access the list of issues/user stories used during the development of th
 ## Testing
 - I have used a combination of automated test and manual testing.
 
-
 ### CSS Testing
 - Tested with [Jigsaw](https://jigsaw.w3.org/css-validator/)
-<img src="">
+<img src="https://github.com/gioZAK/easy_vape/blob/main/docs/ss/css-w3-valid.png">
 
 ### HTML Testing
-- I have tested all templates and they all passed.
 - Tested with [Validator.w3](https://validator.w3.org/nu/#textarea)
-<img src=">
+<img src="https://github.com/gioZAK/easy_vape/blob/main/docs/ss/w3-html-valid.png">
 
 
 [Back to Table of contents](#table-of-contents)
