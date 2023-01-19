@@ -171,7 +171,7 @@ Inside the product detail page, the user can also add a review, which will be po
 
 <details>
 <summary>
-Wishlist Images
+Review Images
 </summary>
 <img src="https://github.com/gioZAK/easy_vape/blob/main/docs/ss/add-review.png">
 <img src="https://github.com/gioZAK/easy_vape/blob/main/docs/ss/review-submited.png">
