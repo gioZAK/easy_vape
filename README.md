@@ -177,8 +177,16 @@ Wishlist Images
 <img src="https://github.com/gioZAK/easy_vape/blob/main/docs/ss/review-submited.png">
 </details>
 
-
 ### Footer
+
+The footer can be found on the bottom of every page. Here the user can access our [facebook](https://www.facebook.com/profile.php?id=100089498293818) and instagram or twitter, which were not created. The user can also see how to reach us and where to find, which are "fake" locations. And also, the user can subscribe to our Newsletter by adding his email and clicking on the subscribe button.
+
+<details>
+<summary>
+Footer Image
+</summary>
+<img src="https://github.com/gioZAK/easy_vape/blob/main/docs/ss/footer.png">
+</details>
 
 ## Structure
 
