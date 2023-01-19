@@ -305,10 +305,10 @@ You can access the list of issues/user stories used during the development of th
 - Google Fonts
     - Used to import the fonts.
 - FontAwesome
-    - Used to import the ThumbsUp and Comment icon.
+    - Used to import icons.
 - Balsamiq Wireframes
     - Used to create the project's wireframe.
-- Cloudinary
+- Amazon Web Services
     - Used to host all images.
 - Django AllAuth
     - Used to deal with user account registration.
@@ -316,6 +316,8 @@ You can access the list of issues/user stories used during the development of th
     - Used to debug and test new styles.
 - ChatGTP
     - Used to debug.
+- Dall-E-2
+    - Used to create all Images.
 
 
 ## Testing
@@ -420,6 +422,7 @@ You can access the list of issues/user stories used during the development of th
 
 ### Code Institute
 - I have relied on the Code Institute Boutique Ado Walktrough Project in order to make my own.
+- Special Thanks to all Code Institute staff for the support throughout the course.
 
 ### ChatGPT
 - I have used [ChatGPT](https://chat.openai.com/chat) as a tool to debug and to guide me on how to apply new functionalities.
