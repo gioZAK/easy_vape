@@ -51,8 +51,17 @@ Nav-Bar Image
 
 <details>
 <summary>
+Search-Bar Results Image
+</summary>
+This is the result if the user searchs for "mint" in the search bar.
+<img src="https://github.com/gioZAK/easy_vape/blob/main/docs/ss/search-bar-result.png">
+</details>
+
+<details>
+<summary>
 Account Image
 </summary>
+Here you can access your Profile, Wishlist. Register, Login or Logout.
 <img src="https://github.com/gioZAK/easy_vape/blob/main/docs/ss/wishlist-access.png">
 </details>
 
