@@ -542,10 +542,52 @@ User Register Testing Images
 User Password Recovery Testing Images
 </summary>
 <img src="https://github.com/gioZAK/easy_vape/blob/main/docs/testing/testing-sign-in-page.png">
-<img src="https://github.com/gioZAK/easy_vape/blob/main/docs/testing/password-reset-email.png">
 <img src="https://github.com/gioZAK/easy_vape/blob/main/docs/testing/password-reset-page.png">
+<img src="https://github.com/gioZAK/easy_vape/blob/main/docs/testing/password-reset-email.png">
 </details>
-    
+
+#### As a user I want to Login.
+
+- Steps: 
+    1. Click on the Account Menu, on the top left.
+    2. Select Login.
+    3. Fill up the Sign In Form.
+    4. Click on the Sign in Button.
+
+
+- Outcome:
+    - Pass. User is now logged in.
+
+- Click here to see the graphic example.
+
+<details>
+<summary>
+User Sign In Testing Images
+</summary>
+<img src="https://github.com/gioZAK/easy_vape/blob/main/docs/testing/testing-sign-in-page.png">
+<img src="https://github.com/gioZAK/easy_vape/blob/main/docs/testing/testing-sign-in-success.png">
+</details>
+
+#### As a user I want to Logout.
+
+- Steps: 
+    1. Click on the Account Menu, on the top left.
+    2. Select Logout.
+    3. Click on Sign Out
+
+
+- Outcome:
+    - Pass. User is now logged out.
+
+- Click here to see the graphic example.
+
+<details>
+<summary>
+User Sign In Testing Images
+</summary>
+<img src="https://github.com/gioZAK/easy_vape/blob/main/docs/testing/testing-sign-out.png">
+<img src="https://github.com/gioZAK/easy_vape/blob/main/docs/testing/testing-sign-out-success.png">
+</details>
 
 
 [Back to Table of contents](#table-of-contents)
