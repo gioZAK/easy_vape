@@ -601,11 +601,50 @@ Graphic Example Below.
 
 <details>
 <summary>
-User Sign In Testing Images
+Product List and Sorting Testing Images
 </summary>
 <img src="https://github.com/gioZAK/easy_vape/blob/main/docs/ss/nav-bar-search.png">
 <img src="https://github.com/gioZAK/easy_vape/blob/main/docs/ss/all_products.png">
 <img src="https://github.com/gioZAK/easy_vape/blob/main/docs/testing/testing-product-sorting.png">
+</details>
+
+#### As a user I want to view the product detail.
+
+- Steps: 
+    1. In the Product List Page.
+    2. Click on the wanted Product.
+
+- Outcome:
+    - Pass. User can see the product detail page.
+
+Graphic Example Below.
+
+<details>
+<summary>
+Product Detail Testing Images
+</summary>
+<img src="https://github.com/gioZAK/easy_vape/blob/main/docs/ss/all_products.png">
+<img src="https://github.com/gioZAK/easy_vape/blob/main/docs/ss/product-detail.png">
+</details>
+
+#### As a user I want to add product to the bag.
+
+- Steps: 
+    1. In the Product Detail Page.
+    2. Select the amount needed.
+    3. Click on Add to Bag.
+
+- Outcome:
+    - Pass. User is able to Add the Product to the Bag.
+
+Graphic Example Below.
+
+<details>
+<summary>
+Add to Bag Testing Images
+</summary>
+<img src="https://github.com/gioZAK/easy_vape/blob/main/docs/ss/product-detail.png">
+<img src="https://github.com/gioZAK/easy_vape/blob/main/docs/testing/testing-add-to-bag.png">
 </details>
 
 
