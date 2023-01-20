@@ -16,12 +16,13 @@ The main technologies used were HTML, CSS, JS, Jquery, Python and Django. All im
 1. [Website presentation](#website-presentation)
 2. [Structure](#structure)
 3. [UX](#ux)
-4. [Agile Workflow](#agile-workflow)
-5. [Business Plan](#business-plan)
-6. [Technologies Used](#technologies-used)    
+4. [User Stories](#user-stories)
+5. [Agile Workflow](#agile-workflow)
+6. [Business Plan](#business-plan)
+7. [Technologies Used](#technologies-used)    
 8. [Testing](#testing)
-8. [Deployment](#deployment)
-9. [Credits](#credits)
+9. [Deployment](#deployment)
+10. [Credits](#credits)
 
 ## Website presentation
 
@@ -306,6 +307,112 @@ You can access the list of issues/user stories used during the development of th
 
 [Back to Table of contents](#table-of-contents)
 
+## User Stories
+
+### View a list of Products
+
+- As a user I can View a list of products so that I can select some to purchase.
+
+### View product detail
+
+- As a user I can view selected product detail so that I can get more information about the product.
+
+### View the purchase total
+
+- As a User I can view the purchase total so that keep control of how much I am about to spend.
+
+### Account Register
+
+- As a user I can register for an account so that have a personal account and view my profile.
+
+### Login/Logout
+
+- As a user I can easily login or logout so that Access my profile or logout my account.
+
+### Email Confirmation
+
+- As a user I can receive an email confirmation so that verify that my account registration was successful.
+
+### Personalized user profile
+
+- As a user I can have a personalized profile so that view order history, confirmation and save payment information.
+
+### Sort the list of products
+
+- As a user I can sort the list of products so that easily identify the best rated, best priced and categorically sorted products.
+
+### Sort a specific category of product
+
+- As a user I can sort a specific category of product so that find the best priced or best-rated product in a specific category, or sort the product by category name.
+
+### Sort multiple categories of products simultaneously
+
+- As a user I can sort multiple categories of products simultaneously so that find the best-priced or best-rated products across broad categories, such as vapes or e-liquid.
+
+### Search Products
+
+- As a user I can search products so that find a specific product.
+
+### Select quantity of product
+
+- As a user I can select quantity of product so that decide how many I want to purchase.
+
+### View items in my bag
+
+- As a user I can view items in my bag so that identify the total cost of my purchase and all items I will receive.
+
+### Adjust items in the bag
+
+- As a user I can adjust items in the bag so that easily make changes to my purchase.
+
+### Order Confirmation
+
+- As a user I can view the order confirmation so that certify that my order was successful.
+
+### Checkout Email Confirmation
+
+- As a user I can receive a email confirmation after checkout so that keep a record of my purchase.
+
+### Payment Information
+
+- As a user I can easily enter my payment information so that checkout quickly.
+
+### Add products
+
+- As a store owner I can add a product so that display items in my website.
+
+### Edit/Update Product
+
+- As a Store Owner I can Edit/Update Product so that change products price, description, image and other criteria.
+
+### Delete a Product
+
+- As a Store Owner I can Delete a Product so that remove items that are no longer for sale.
+
+### Add Products to a Wishlist
+
+- As a user I can add products to a Wishlist so that I can save my favorite products.
+
+### Remove Products from Wishlist
+
+- As a user I can Remove Products from Wishlist so that delete unwanted items from there.
+
+### Write a Review
+
+- As a user I can write a review so that I can tell others user about my experience with the purchased item.
+
+### Read Reviews
+
+- As a user I can read reviews so that I can have more information about the item I am about to purchase.
+
+### Delete Review
+
+- As a user I can Delete a review so that change my review if needed.
+
+### Contact Form
+
+- As a user I can write a form so that I can contact the owner.
+
 ## Business Plan
 
 ### Business Model
@@ -316,7 +423,7 @@ The Customer Orders from the Website, the Website sends the Order Request to the
 
 #### Products
 
-We currently offer 21 Products, which are divided into these Categories; MODS, PODS, E-Liquid with Nicotine and Without Nicotine.
+We currently offer 21 Products, which are divided into these Categories; MODS, PODS, E-Juices with Nicotine and Without Nicotine.
 
  - 7 Vapes
     - Which 4 are MODS, with price ranging from 90 Euros to 120 Euros.
@@ -468,7 +575,7 @@ In order to improve the SEO, I have added a sitemap.xml and robots.txt to the we
 
 ### Code Institute
 - I have relied on the Code Institute Boutique Ado Walktrough Project in order to make my own.
-- Special Thanks to all Code Institute staff for the support throughout the course.
+- Special Thanks to the Code Institute staff for the support throughout the course.
 
 ### ChatGPT
 - I have used [ChatGPT](https://chat.openai.com/chat) as a tool to debug and to guide me on how to apply new functionalities.
