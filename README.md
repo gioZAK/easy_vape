@@ -911,8 +911,8 @@ Site Owner Delete Product - Images
 ## Deployment
 - In order to Deploy this project:
     1. Either fork or clone this project.
-    2. Heroku setup.
-
+    2. Heroku Setup.
+    3. AWS Setup.
 
 ### Forking
 
@@ -934,18 +934,29 @@ Site Owner Delete Product - Images
     8. You now have a local clone.
 
 ### Heroku.
--To setup with Heroku:
 
-   1. Create an account at heroku.com
-   2. Create a new app, add app name and your region
-   3. Click on create app
-   4. Go to "Settings"
-   5. Under Config Vars, add your sensitive data (creds.json for example)
-   6. Now go to your IDE and connect your enviroment with heroku
-   7. heroku login -i
-   8. Then run the following command: heroku git:remote -a your_app_name_here
-   9. Finally: git push heroku main
+- To setup with Heroku:
 
+   1. Create an account at heroku.com.
+   2. Create a new app, add app name and your region.
+   3. Click on create app.
+   4. Go to "Settings".
+   5. Under Config Vars, add your sensitive data.
+   6. Now go to your IDE and connect your enviroment with heroku.
+   7. heroku login -i.
+   8. Then run the following command: heroku git:remote -a your_app_name_here.
+   9. Finally: git push heroku main.
+
+### Amazon Web Services.
+
+- To setup with AWS:
+
+    1. Create an account at [AWS](https://aws.amazon.com/).
+    2. Navigate to the IAM application and create a user and group.
+    3. Set the AmazonS3FullAccess for the user and copy the AWS ACCESS and SECRET keys as config vars to your workspace and Heroku.
+    4. Create a new Bucket within the S3 application with an appropriate name.
+    5. Enable public access for your bucket so users can access and use the services on your website (upload, view, download, etc). 
+    6. If Needed Documentation at https://aws.amazon.com/s3/.
 
 ## Credits
 
