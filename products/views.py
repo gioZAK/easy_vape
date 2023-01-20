@@ -45,7 +45,8 @@ def all_products(request):
                 messages.error(request, "You didn't enter any search criteria!")
                 return redirect(reverse('products'))
 
-            queries = Q(name__icontains=query) | Q(description__icontains=query)
+            queries = Q(name__icontains=query) | Q(
+                description__icontains=query)
             products = products.filter(queries)
 
     current_sorting = f'{sort}_{direction}'
@@ -64,7 +65,8 @@ def product_detail(request, product_id):
     """ A view to show individual product details """
 
     product = get_object_or_404(Product, pk=product_id)
-    reviews = Review.objects.filter(product=product, is_approved=True).order_by('-created_at')
+    reviews = Review.objects.filter(
+        product=product, is_approved=True).order_by('-created_at')
     paginator = Paginator(reviews, 2)
     page_number = request.GET.get('page')
     page_obj = paginator.get_page(page_number)
@@ -76,7 +78,8 @@ def product_detail(request, product_id):
         'page_obj': page_obj
     }
     if request.user.is_authenticated:
-        is_product_in_wishlist = Wishlist.objects.filter(user=request.user, product=product).exists()
+        is_product_in_wishlist = Wishlist.objects.filter(
+            user=request.user, product=product).exists()
         context['is_product_in_wishlist'] = is_product_in_wishlist
     return render(request, 'products/product_detail.html', context)
 
@@ -91,7 +94,7 @@ def add_product(request):
             messages.success(request, 'Successfully added product!')
             return redirect(reverse('product_detail', args=[product.id]))
         else:
-            messages.error(request, 'Failed to add product. Please ensure the form is valid.')
+            messages.error(request, 'Failed to add product.')
     else:
         form = ProductForm()
 
@@ -114,7 +117,7 @@ def edit_product(request, product_id):
             messages.success(request, 'Successfully updated product!')
             return redirect(reverse('product_detail', args=[product.id]))
         else:
-            messages.error(request, 'Failed to update product. Please ensure the form is valid.')
+            messages.error(request, 'Failed to update product.')
     else:
         form = ProductForm(instance=product)
         messages.info(request, f'You are editing {product.name}')
@@ -147,7 +150,9 @@ def add_review(request, product_id):
             review.product = product
             review.user = request.user
             review.save()
-            messages.success(request, "Your review has been submitted and is awaiting approval.")
+            messages.success(
+                request,
+                "Your review has been submitted and is awaiting approval.")
             return redirect('product_detail', product_id=product_id)
         else:
             messages.error(request, "Something went wrong with your review.")
