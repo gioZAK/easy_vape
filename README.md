@@ -270,11 +270,24 @@ ERD image
 
 ### Site User Goal
 
-- 
+- Quickly identify what the website is about
+- Search for Products
+- Add Products and Manage products in the bag
+- Secure Checkout, provided by Stripe
+- Register for an account
+- Subscribe to a newsletter
+- Add a review
+- Add products to a wishlist
+- Contact the site owner via the contact form.
+- Receive confirmation of the purchase
 
-### Site Goal
+### Site Owner Goal
 
-- 
+- Sell items online
+- Add new products and categories easily.
+- Manage user reviews to avoid malicious comments.
+- Read user contact form in the admin panel.
+- Receive payment securely via Stripe.
 
 ## Agile Workflow
 
