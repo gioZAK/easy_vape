@@ -902,8 +902,8 @@ Graphic Example Below.
 <summary>
 Site Owner Delete Product - Images
 </summary>
-<img src="https://github.com/gioZAK/easy_vape/blob/main/docs/testing/testing-add-product-success.png">
-<img src="https://github.com/gioZAK/easy_vape/blob/main/docs/testing/testing-delete-success.png">
+<img src="https://github.com/gioZAK/easy_vape/blob/main/docs/testing/testing-edit-product-success.png">
+<img src="https://github.com/gioZAK/easy_vape/blob/main/docs/testing/product-deleted-success.png">
 </details>
 
 [Back to Table of contents](#table-of-contents)
