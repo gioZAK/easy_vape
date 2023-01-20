@@ -516,10 +516,10 @@ In order to improve the SEO, I have added a sitemap.xml and robots.txt to the we
 <summary>
 User Register Testing Images
 </summary>
-<img src="https://github.com/gioZAK/easy_vape/blob/main/docs/register-testing-sign-up.png">
-<img src="https://github.com/gioZAK/easy_vape/blob/main/docs/register-testing-sign-submitted.png">
-<img src="https://github.com/gioZAK/easy_vape/blob/main/docs/register-testing-email.png">
-<img src="https://github.com/gioZAK/easy_vape/blob/main/docs/register-testing-email-confirm.png">
+<img src="https://github.com/gioZAK/easy_vape/blob/main/docs/testing/register-testing-sign-up.png">
+<img src="https://github.com/gioZAK/easy_vape/blob/main/docs/testing/register-testing-sign-submitted.png">
+<img src="https://github.com/gioZAK/easy_vape/blob/main/docs/testing/register-testing-email.png">
+<img src="https://github.com/gioZAK/easy_vape/blob/main/docs/testing/register-testing-email-confirm.png">
 </details>
 
 #### As a user I want to recover my password.
