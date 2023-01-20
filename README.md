@@ -695,7 +695,6 @@ Checkout Success Images
     1. In the Product Detail Page.
     2. Click on Add to Wishlist.
 
-
 - Outcome:
     - Pass. User is able to add product to the Wishlist.
 
@@ -716,7 +715,6 @@ Add to Wishlist Images
         - Click on Manage Wishlist on the Product Detail
         - Or on the top left in the account icons click on Wishlist.
     2. Click on Remove from the Wishlist.
-
 
 - Outcome:
     - Pass. User is able to view the Wishlist and delete products from there.
@@ -746,7 +744,6 @@ In order to remove click on the "Remove from Wishlist" Button. <br />
     2. On the bottom there is a Review Form, write your review there.
     3. Click Submit review
 
-
 - Outcome:
     - Pass. User is able to add a review.
 
@@ -768,7 +765,6 @@ Add Product Review Images
     3. Check the Is Approved Box.
     4. Review is now posted.
 
-
 - Outcome:
     - Pass. Admin is able to moderate reviews and see the review posted.
     - All users can see the review now.
@@ -788,9 +784,8 @@ Moderate Review Images
 
 - Steps: 
     1. In the Product Detail Page.
-    2. Click on the Delete Review Button.
+    2. Click on the Delete Button.
         - Only the owner of the review is able to see this button.
-
 
 - Outcome:
     - Pass. User is able to delete his own review.
@@ -803,6 +798,47 @@ Delete Review Images
 </summary>
 <img src="https://github.com/gioZAK/easy_vape/blob/main/docs/testing/testing-review-display.png">
 <img src="https://github.com/gioZAK/easy_vape/blob/main/docs/testing/testing-review-delete.png">
+</details>
+
+#### As a user I want to send a Contact Form.
+
+- Steps: 
+    1. On the middle of the Nav Bar, click on Contact Us.
+    2. Fill up the Contact Form.
+        - If the user logged in his email will be displayed there already.
+
+- Outcome:
+    - Pass. User is able to send a form.
+
+Graphic Example Below.
+
+<details>
+<summary>
+Contact Form Images
+</summary>
+<img src="https://github.com/gioZAK/easy_vape/blob/main/docs/ss/contact-form.png">
+<img src="https://github.com/gioZAK/easy_vape/blob/main/docs/testing/testing-contact-success.png">
+</details>
+
+#### As a Admin I want to read the Contact Form send by the users.
+
+- Steps: 
+    1. Site Owner has received a Email after form submission.
+    2. Go to the Admin dashboard.
+    3. Click on Contacts
+    4. Click on the Name of the contact form you want to read.
+
+- Outcome:
+    - Pass. Admin is able to read the Contact Form.
+
+Graphic Example Below.
+
+<details>
+<summary>
+Admin Contact Form Images
+</summary>
+<img src="https://github.com/gioZAK/easy_vape/blob/main/docs/testing/testing-contact-form-admin.png">
+<img src="https://github.com/gioZAK/easy_vape/blob/main/docs/testing/testing-contact-form-admin-full.png">
 </details>
 
 [Back to Table of contents](#table-of-contents)
