@@ -780,8 +780,8 @@ Graphic Example Below.
 Moderate Review Images
 </summary>
 <img src="https://github.com/gioZAK/easy_vape/blob/main/docs/testing/testing-admin-reviews.png">
-<img src="https://github.com/gioZAK/easy_vape/blob/main/docs/ss/testing-admin-reviews-success.png">
-<img src="https://github.com/gioZAK/easy_vape/blob/main/docs/ss/testing-review-display.png">
+<img src="https://github.com/gioZAK/easy_vape/blob/main/docs/testing/testing-admin-reviews-success.png">
+<img src="https://github.com/gioZAK/easy_vape/blob/main/docs/testing/testing-review-display.png">
 </details>
 
 #### As a user I want to delete my own Product Review.
@@ -801,8 +801,8 @@ Graphic Example Below.
 <summary>
 Delete Review Images
 </summary>
-<img src="https://github.com/gioZAK/easy_vape/blob/main/docs/ss/testing-review-display.png">
-<img src="https://github.com/gioZAK/easy_vape/blob/main/docs/ss/testing-review-delete.png">
+<img src="https://github.com/gioZAK/easy_vape/blob/main/docs/testing/testing-review-display.png">
+<img src="https://github.com/gioZAK/easy_vape/blob/main/docs/testing/testing-review-delete.png">
 </details>
 
 [Back to Table of contents](#table-of-contents)
