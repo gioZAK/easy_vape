@@ -310,7 +310,7 @@ You can access the list of issues/user stories used during the development of th
 
 ### Business Model
 
-Easy Vape uses Business-to-Consumer(B2C) retail model, this website is the online platform where the company connects it's products with the costumers. All Vapes and E-Liquids are produced by Easy Vape and sold on the webpage.
+Easy Vape uses Business-to-Consumer(B2C) retail model. This website is the online platform where the company connects it's products with the costumers. All Vapes and E-Liquids are produced by Easy Vape and sold on the webpage.
 
 The Customer Orders from the Website, the Website sends the Order Request to the Warehouse and from the Warehouse the Order is sent to the Customer.
 
@@ -319,12 +319,12 @@ The Customer Orders from the Website, the Website sends the Order Request to the
 We currently offer 21 Products, which are divided into these Categories; MODS, PODS, E-Liquid with Nicotine and Without Nicotine.
 
  - 7 Vapes
-    - Which 4 are MODS, price ranging from 90 Euros to 120 Euros.
-    - Which 2 are PODS, price ranging from 45 Euros to 66 Euros.
+    - Which 4 are MODS, with price ranging from 90 Euros to 120 Euros.
+    - Which 2 are PODS, with price ranging from 45 Euros to 66 Euros.
 
 - 14 E-Juices
-    - Which 7 contain Nicotine, price ranging from 5 Euros to 6.50 Euros.
-    - Which 7 do not cotain Nicotine, price ranging from 3.50 euros to 4 Euros.
+    - Which 7 contain Nicotine, with price ranging from 5 Euros to 6.50 Euros.
+    - Which 7 do not cotain Nicotine, with price ranging from 3.50 euros to 4 Euros.
 
 #### Delivery
 
@@ -332,7 +332,7 @@ Our products are sent directly to the user location, the delivery fee is 10% per
 
 #### Marketing
 
-Since Facebook has one of the highest number of users worldwide, we opted to create a Facebook page to connect with our users.
+Since Facebook has one of the highest numbers of users worldwide, we opted to create a Facebook page to connect with our users.
 
 <img src="https://github.com/gioZAK/easy_vape/blob/main/docs/FB/EV-FB.png">
 
