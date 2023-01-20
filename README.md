@@ -841,7 +841,73 @@ Admin Contact Form Images
 <img src="https://github.com/gioZAK/easy_vape/blob/main/docs/testing/testing-contact-form-admin-full.png">
 </details>
 
+#### As a Site Owner I want to Add new Product.
+
+- Steps: 
+    1. Either:
+        - Go to the Admin Dashboard.
+        - Access Product Management in the Accounts Icon.
+    2. In the Product Management.
+    3. Fill up the form.
+
+- Outcome:
+    - Pass. Site Owner is able to Add a new product.
+
+Graphic Example Below.
+
+<details>
+<summary>
+Site Owner Add Product - Images
+</summary>
+<img src="https://github.com/gioZAK/easy_vape/blob/main/docs/testing/testing-add-product.png">
+<img src="https://github.com/gioZAK/easy_vape/blob/main/docs/testing/testing-add-product-success.png">
+</details>
+
+#### As a Site Owner I want to Edit a Product.
+
+- Steps: 
+    1. Go to the Product Detail Page or the Product List.
+    2. Click on Edit.
+        - Only SuperUsers can see this option
+    3. Fill up the form with the necessary changes
+
+
+- Outcome:
+    - Pass. Site Owner is able to Edit a Product.
+
+Graphic Example Below.
+
+<details>
+<summary>
+Site Owner Edit Product - Images
+</summary>
+<img src="https://github.com/gioZAK/easy_vape/blob/main/docs/testing/testing-add-product-success.png">
+<img src="https://github.com/gioZAK/easy_vape/blob/main/docs/testing/testing-edit-product.png">
+<img src="https://github.com/gioZAK/easy_vape/blob/main/docs/testing/testing-edit-product-success.png">
+</details>
+
+#### As a Site Owner I want to Delete a Product.
+
+- Steps: 
+    1. Go to the Product Detail Page or the Product List.
+    2. Click on Delete.
+        - Only SuperUsers can see this option
+
+- Outcome:
+    - Pass. Site Owner is able to Delete the product.
+
+Graphic Example Below.
+
+<details>
+<summary>
+Site Owner Delete Product - Images
+</summary>
+<img src="https://github.com/gioZAK/easy_vape/blob/main/docs/testing/testing-add-product-success.png">
+<img src="https://github.com/gioZAK/easy_vape/blob/main/docs/testing/testing-delete-success.png">
+</details>
+
 [Back to Table of contents](#table-of-contents)
+
 ## Deployment
 - In order to Deploy this project:
     1. Either fork or clone this project.
