@@ -510,7 +510,7 @@ In order to improve the SEO, I have added a sitemap.xml and robots.txt to the we
 - Outcome:
     - Pass. User is now registered and able to login.
 
-- Click here to see the graphic example.
+Graphic Example Below.
 
 <details>
 <summary>
@@ -535,7 +535,7 @@ User Register Testing Images
 - Outcome:
     - Pass. User has a new password and able to log in.
 
-- Click here to see the graphic example.
+Graphic Example Below.
 
 <details>
 <summary>
@@ -554,11 +554,10 @@ User Password Recovery Testing Images
     3. Fill up the Sign In Form.
     4. Click on the Sign in Button.
 
-
 - Outcome:
     - Pass. User is now logged in.
 
-- Click here to see the graphic example.
+Graphic Example Below.
 
 <details>
 <summary>
@@ -575,18 +574,38 @@ User Sign In Testing Images
     2. Select Logout.
     3. Click on Sign Out
 
-
 - Outcome:
     - Pass. User is now logged out.
 
-- Click here to see the graphic example.
+Graphic Example Below.
+
+<details>
+<summary>
+User Logout Testing Images
+</summary>
+<img src="https://github.com/gioZAK/easy_vape/blob/main/docs/testing/testing-sign-out.png">
+<img src="https://github.com/gioZAK/easy_vape/blob/main/docs/testing/testing-sign-out-success.png">
+</details>
+
+#### As a user I want to view a list of products and sort by Price (Low to High).
+
+- Steps: 
+    1. In the Nav Bar, select the Category wanted.
+    2. Inside the Product Detail page, on the top left Click on Sort By.
+    3. Select Price (low to high)
+
+- Outcome:
+    - Pass. User can see the product list and sort it by price.
+
+Graphic Example Below.
 
 <details>
 <summary>
 User Sign In Testing Images
 </summary>
-<img src="https://github.com/gioZAK/easy_vape/blob/main/docs/testing/testing-sign-out.png">
-<img src="https://github.com/gioZAK/easy_vape/blob/main/docs/testing/testing-sign-out-success.png">
+<img src="https://github.com/gioZAK/easy_vape/blob/main/docs/ss/nav-bar-search.png">
+<img src="https://github.com/gioZAK/easy_vape/blob/main/docs/ss/all_products.png">
+<img src="https://github.com/gioZAK/easy_vape/blob/main/docs/testing/testing-product-sorting.png">
 </details>
 
 
