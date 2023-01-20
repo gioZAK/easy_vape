@@ -647,6 +647,26 @@ Add to Bag Testing Images
 <img src="https://github.com/gioZAK/easy_vape/blob/main/docs/testing/testing-add-to-bag.png">
 </details>
 
+#### As a user I want to view my bag and increase the quantity of the product.
+
+- Steps: 
+    1. On the top left of the page, click on the bag icon.
+    2. Select the quantity needed.
+    3. Click on Update.
+
+- Outcome:
+    - Pass. User is able to view his bag and increase the item amount.
+
+Graphic Example Below.
+
+<details>
+<summary>
+Add to Bag Testing Images
+</summary>
+<img src="https://github.com/gioZAK/easy_vape/blob/main/docs/testing/testing-bag.png">
+<img src="https://github.com/gioZAK/easy_vape/blob/main/docs/testing/testing-bag-updated.png">
+</details>
+
 
 [Back to Table of contents](#table-of-contents)
 ## Deployment
