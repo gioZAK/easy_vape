@@ -308,6 +308,40 @@ You can access the list of issues/user stories used during the development of th
 
 ## Business Plan
 
+### Business Model
+
+Easy Vape uses Business-to-Consumer(B2C) retail model, this website is the online platform where the company connects it's products with the costumers. All Vapes and E-Liquids are produced by Easy Vape and sold on the webpage.
+
+The Customer Orders from the Website, the Website sends the Order Request to the Warehouse and from the Warehouse the Order is sent to the Customer.
+
+#### Products
+
+We currently offer 21 Products, which are divided into these Categories; MODS, PODS, E-Liquid with Nicotine and Without Nicotine.
+
+ - 7 Vapes
+    - Which 4 are MODS, price ranging from 90 Euros to 120 Euros.
+    - Which 2 are PODS, price ranging from 45 Euros to 66 Euros.
+
+- 14 E-Juices
+    - Which 7 contain Nicotine, price ranging from 5 Euros to 6.50 Euros.
+    - Which 7 do not cotain Nicotine, price ranging from 3.50 euros to 4 Euros.
+
+#### Delivery
+
+Our products are sent directly to the user location, the delivery fee is 10% percent of the Product Total Price. But, if the user spends more than 80 Euros we offer Free Delivery.
+
+#### Marketing
+
+Since Facebook has one of the highest number of users worldwide, we opted to create a Facebook page to connect with our users.
+
+<img src="https://github.com/gioZAK/easy_vape/blob/main/docs/FB/EV-FB.png">
+
+Also, users can subscribe to our Newsletter by filling out the form found on the bottom of the page, provided by MailChimp.
+
+#### Search Engine Optimisation
+
+In order to improve the SEO, I have added a sitemap.xml and robots.txt to the website.
+
 ## Technologies Used
 
 ### Main Tech
@@ -360,6 +394,7 @@ You can access the list of issues/user stories used during the development of th
 
 
 [Back to Table of contents](#table-of-contents)
+
 ### Manual Testing
  - Here is the sequence of manual test I have applied to check if all applications work.
 
