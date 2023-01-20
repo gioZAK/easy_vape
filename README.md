@@ -667,6 +667,28 @@ Add to Bag Testing Images
 <img src="https://github.com/gioZAK/easy_vape/blob/main/docs/testing/testing-bag-updated.png">
 </details>
 
+#### As a user I want to Checkout and Receive a Confirmation.
+
+- Steps: 
+    1. In the bag page, click Secure Checkout.
+    2. Fill up the form.
+    3. Click on Confirm Order.
+    4. Check Email.
+
+- Outcome:
+    - Pass. User is able to Checkout and receives a Confirmation E-mail.
+
+Graphic Example Below.
+
+<details>
+<summary>
+Add to Bag Testing Images
+</summary>
+<img src="https://github.com/gioZAK/easy_vape/blob/main/docs/testing/testing-checkout.png">
+<img src="https://github.com/gioZAK/easy_vape/blob/main/docs/testing/testing-checkout-success.png">
+<img src="https://github.com/gioZAK/easy_vape/blob/main/docs/testing/testing-checkout-email.png">
+</details>
+
 
 [Back to Table of contents](#table-of-contents)
 ## Deployment
