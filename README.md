@@ -502,13 +502,13 @@ In order to improve the SEO, I have added a sitemap.xml and robots.txt to the we
 
 - Steps: 
     1. Click on the Account Menu, on the top left.
-    2. Select Register
+    2. Select Register.
     3. Fill up the form.
     4. Check your e-mail.
     5. Click on the link and confirm.
 
 - Outcome:
-    - Pass, user is now registered and able to log in.
+    - Pass. User is now registered and able to login.
 
 - Click here to see the graphic example.
 
@@ -517,7 +517,7 @@ In order to improve the SEO, I have added a sitemap.xml and robots.txt to the we
 User Register Testing Images
 </summary>
 <img src="https://github.com/gioZAK/easy_vape/blob/main/docs/testing/register-testing-sign-up.png">
-<img src="https://github.com/gioZAK/easy_vape/blob/main/docs/testing/register-testing-sign-submitted.png">
+<img src="https://github.com/gioZAK/easy_vape/blob/main/docs/testing/register-testing-sign-up-submitted.png">
 <img src="https://github.com/gioZAK/easy_vape/blob/main/docs/testing/register-testing-email.png">
 <img src="https://github.com/gioZAK/easy_vape/blob/main/docs/testing/register-testing-email-confirm.png">
 </details>
@@ -525,17 +525,27 @@ User Register Testing Images
 #### As a user I want to recover my password.
 
 - Steps: 
-    1. 
-    2. 
-    3. 
-    4. 
+    1. Click on the Account Menu, on the top left.
+    2. Select Login.
+    3. Click on "Forgot Password"
+    4. Check your e-mail.
+    5. Click on the link.
+    6. Add new Password.
 
 - Outcome:
-    -
+    - Pass. User has a new password and able to log in.
 
+- Click here to see the graphic example.
+
+<details>
+<summary>
+User Password Recovery Testing Images
+</summary>
+<img src="https://github.com/gioZAK/easy_vape/blob/main/docs/testing/testing-sign-in-page.png">
+<img src="https://github.com/gioZAK/easy_vape/blob/main/docs/testing/password-reset-email.png">
+<img src="https://github.com/gioZAK/easy_vape/blob/main/docs/testing/password-reset-page.png">
+</details>
     
-
-#### As a user I want.
 
 
 [Back to Table of contents](#table-of-contents)
