@@ -739,12 +739,78 @@ In order to remove click on the "Remove from Wishlist" Button. <br />
 <img src="https://github.com/gioZAK/easy_vape/blob/main/docs/ss/wishlist-remove-item-2.png">
 </details>
 
+#### As a user I want to add a Product Review.
+
+- Steps: 
+    1. In the Product Detail Page.
+    2. On the bottom there is a Review Form, write your review there.
+    3. Click Submit review
+
+
+- Outcome:
+    - Pass. User is able to add a review.
+
+Graphic Example Below.
+
+<details>
+<summary>
+Add Product Review Images
+</summary>
+<img src="https://github.com/gioZAK/easy_vape/blob/main/docs/ss/add-review.png">
+<img src="https://github.com/gioZAK/easy_vape/blob/main/docs/ss/review-submited.png">
+</details>
+
+#### As a Admin I want to moderate the reviews and see the review posted.
+
+- Steps: 
+    1. Go to the Admin Dashboard.
+    2. Click on Reviews.
+    3. Check the Is Approved Box.
+    4. Review is now posted.
+
+
+- Outcome:
+    - Pass. Admin is able to moderate reviews and see the review posted.
+    - All users can see the review now.
+
+Graphic Example Below.
+
+<details>
+<summary>
+Moderate Review Images
+</summary>
+<img src="https://github.com/gioZAK/easy_vape/blob/main/docs/testing/testing-admin-reviews.png">
+<img src="https://github.com/gioZAK/easy_vape/blob/main/docs/ss/testing-admin-reviews-success.png">
+<img src="https://github.com/gioZAK/easy_vape/blob/main/docs/ss/testing-review-display.png">
+</details>
+
+#### As a user I want to delete my own Product Review.
+
+- Steps: 
+    1. In the Product Detail Page.
+    2. Click on the Delete Review Button.
+        - Only the owner of the review is able to see this button.
+
+
+- Outcome:
+    - Pass. User is able to delete his own review.
+
+Graphic Example Below.
+
+<details>
+<summary>
+Delete Review Images
+</summary>
+<img src="https://github.com/gioZAK/easy_vape/blob/main/docs/ss/testing-review-display.png">
+<img src="https://github.com/gioZAK/easy_vape/blob/main/docs/ss/testing-review-delete.png">
+</details>
+
 [Back to Table of contents](#table-of-contents)
 ## Deployment
 - In order to Deploy this project:
     1. Either fork or clone this project.
     2. Heroku setup.
-    3. Follow the [link](https://docs.google.com/document/d/1P5CWvS5cYalkQOLeQiijpSViDPogtKM7ZGyqK-yehhQ/edit) to set up your ide. Credit do Code Institute
+
 
 ### Forking
 
@@ -777,10 +843,6 @@ In order to remove click on the "Remove from Wishlist" Button. <br />
    7. heroku login -i
    8. Then run the following command: heroku git:remote -a your_app_name_here
    9. Finally: git push heroku main
-
-### Follow the instructions here.
-- Further instructions can be follow from [here](https://docs.google.com/document/d/1P5CWvS5cYalkQOLeQiijpSViDPogtKM7ZGyqK-yehhQ/edit)
-    - All credits to Code Institute.
 
 
 ## Credits
