@@ -682,13 +682,62 @@ Graphic Example Below.
 
 <details>
 <summary>
-Add to Bag Testing Images
+Checkout Success Images
 </summary>
 <img src="https://github.com/gioZAK/easy_vape/blob/main/docs/testing/testing-checkout.png">
 <img src="https://github.com/gioZAK/easy_vape/blob/main/docs/testing/testing-checkout-success.png">
 <img src="https://github.com/gioZAK/easy_vape/blob/main/docs/testing/testing-checkout-email.png">
 </details>
 
+#### As a user I want to add products to my Wishlist.
+
+- Steps: 
+    1. In the Product Detail Page.
+    2. Click on Add to Wishlist.
+
+
+- Outcome:
+    - Pass. User is able to add product to the Wishlist.
+
+Graphic Example Below.
+
+<details>
+<summary>
+Add to Wishlist Images
+</summary>
+<img src="https://github.com/gioZAK/easy_vape/blob/991f111d0027fc5f231878ee8414ec5b9dce2c03/docs/ss/product-detail.png">
+</details>
+
+
+#### As a user I want to view my Wishlist and Remove items from there.
+
+- Steps: 
+    1. Either:
+        - Click on Manage Wishlist on the Product Detail
+        - Or on the top left in the account icons click on Wishlist.
+    2. Click on Remove from the Wishlist.
+
+
+- Outcome:
+    - Pass. User is able to view the Wishlist and delete products from there.
+
+Graphic Example Below.
+
+<details>
+<summary>
+Views and Remove items from Wishlist Images
+</summary>
+In order to access your wishlist click on the "Manage Wishlist" <br />
+<img src="https://github.com/gioZAK/easy_vape/blob/main/docs/ss/wishlist-access-product-detail.png">
+Or you can click here. <br />
+<img src="https://github.com/gioZAK/easy_vape/blob/main/docs/ss/wishlist-access.png">
+This is your wishlist page <br />
+<img src="https://github.com/gioZAK/easy_vape/blob/main/docs/ss/wishlist.png">
+In order to remove click on the "Remove from Wishlist" Button. <br />
+<img src="https://github.com/gioZAK/easy_vape/blob/main/docs/ss/wishlist-remove-item-1.png">
+<br />
+<img src="https://github.com/gioZAK/easy_vape/blob/main/docs/ss/wishlist-remove-item-2.png">
+</details>
 
 [Back to Table of contents](#table-of-contents)
 ## Deployment
